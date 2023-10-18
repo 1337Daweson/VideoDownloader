@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>video-download_icon-icons.com_71290.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="video-download_icon-icons.com_71290.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FiddlerCore5" Version="5.0.2" />
+    <PackageReference Include="PuppeteerSharp" Version="11.0.6" />
+  </ItemGroup>
+
+</Project>
